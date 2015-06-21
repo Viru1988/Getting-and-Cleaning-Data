@@ -33,5 +33,12 @@ This dataset is derived from Human Activity Recognition Using Smartphones Datase
 * Merge data set.
 * Melt the dataset and cast to get the  average of each variable for each activity and each subject.
 
+### New Variables created as part of this analysis
+
+* activity_id : Id for all the activities 
+* activity_name: name of the activities
+* subject_id: id for all the subjects from 1:30
+* mergeddata: contains merged data of Test and training dataset.
+
 
 
