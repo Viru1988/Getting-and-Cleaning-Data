@@ -16,22 +16,22 @@ This dataset is derived from Human Activity Recognition Using Smartphones Datase
 * 'train/y_train.txt': Training labels.
 * 'test/X_test.txt': Test set., Records for all the variables in Features.
 * 'test/y_test.txt': Test labels.
-*subject_train.txt: will give you the list with subjectID from  1to 30 , these ID belong to the group of people to whom the survey conducted with respect to training.
+* subject_train.txt: will give you the list with subjectID from  1to 30 , these ID belong to the group of people to whom the survey conducted with respect to training.
 *subject_test.txt: will give you the list with subjectID from  1to 30 , these ID belong to the group of people to whom the survey conducted with respect to test.
 
 ###Transformations
-*Training and test data set rows were merged and then a unified data set created from the source files.
-*Measurements were extracted for mean, standard deviation for each measurement.
-*variable/column names were labeled with descriptive cleaner names.
-*Results were output as an indepenent tidy data set at TidyData.txt
+* Training and test data set rows were merged and then a unified data set created from the source files.
+* Measurements were extracted for mean, standard deviation for each measurement.
+* variable/column names were labeled with descriptive cleaner names.
+* Results were output as an indepenent tidy data set at TidyData.txt
 
 ###run_analysis.R implements the above steps:
-*Require reshape2  librareis.
-*Load both test and train data which contains 2947 and 7352 respectively.
-*Load the features and activity labels.
-*Extract the mean and standard deviation column names and data.
-*Merge data set.
-*Melt the dataset and cast to get the  average of each variable for each activity and each subject.
+* Require reshape2  librareis.
+* Load both test and train data which contains 2947 and 7352 respectively.
+* Load the features and activity labels.
+* Extract the mean and standard deviation column names and data.
+* Merge data set.
+* Melt the dataset and cast to get the  average of each variable for each activity and each subject.
 
 
 
